@@ -1,0 +1,33 @@
+footer {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+footer .links {
+    display: flex;
+    gap: 32px;
+}
+
+footer .footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+footer .footer-links a {
+    color: #7E8087;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    
+}
