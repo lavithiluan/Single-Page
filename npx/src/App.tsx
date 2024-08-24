@@ -1,15 +1,21 @@
 import './App.css'
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
-import Index from './components/Banner-Titulo/index'
+import Banner from './components/Banner-Titulo/'
+import Enredo from './components/Enredo/'
+import MediaQuerie from './components/MediaQuerie/'
+import Avaliacoes from './components/Avaliação';
 
 
 function App() {
   return (
     <>
-      <Header />
+      <MediaQuerie/>
       <main>
-      <Index />
+      <Header />
+      <Banner />
+      <Enredo />
+      <Avaliacoes />
       <Footer />
       </main>
     </>

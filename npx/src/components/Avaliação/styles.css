@@ -1,0 +1,36 @@
+.avaliacoes .headerAvaliacoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Krona One', sans-serif;
+}
+.avaliacoes h1 {
+    font-size: 16px;
+}
+.avaliar{
+    display: flex;
+    
+    align-items: center;
+}
+
+.headerAvaliacoes .imagemEtitulo{
+    gap: 10px;
+    padding-left: 15px;
+    display: flex;
+    
+    font-size: 12px;
+}
+
+.headerAvaliacoes .imagemEtitulo img{
+    width: 12px;
+}
+
+.avaliar h1{
+    color: #FF003F;
+    font-size: 16px;
+}
+
+.avaliar {
+    gap: 5px;
+}

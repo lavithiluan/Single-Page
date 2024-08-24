@@ -5,16 +5,16 @@ import Image2 from '../../assets/img/gow.png';
 
 const index: React.FC = () => {
     return(
-        <section>
+        <section className="banner">
             <div className="container">  
                 <h1>GOD OF WAR: RAGNAROK</h1>
                     <div className="ratings">
                         <div className="rating">
-                            <span>Avaliação da Ratings</span>
-                            <span>⭐ 9,6/10</span>
+                            <span>AVALIAÇÃO DA RATINGS</span>
+                            <span>⭐ 9,6/10</span>   
                         </div>
                         <div className="rating">
-                            <span>Sua Avaliação</span>
+                            <span>SUA AVALIAÇÃO</span>
                             <span>⭐ Avaliar</span>
                         </div>
                     </div>

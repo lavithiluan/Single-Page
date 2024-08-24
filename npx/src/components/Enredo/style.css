@@ -1,0 +1,26 @@
+section .tituloSection{
+    display: flex;
+    color: white;
+    gap: 10px;
+    padding-left: 15px;
+    font-family: 'Krona One', sans-serif;
+    font-size: 12px;
+}
+
+section .tituloSection img{
+    width: 12px;
+}
+
+.enredo h1 {
+    font-size: 16px;
+}
+
+.enredo p{
+    color: #FFF;
+    font-family: Karla;
+    font-size: 16px;
+}
+.enredo{
+    margin-top: 25px;
+    width: 100%;
+}

@@ -1,0 +1,14 @@
+@media(max-width: 768px){
+    .imgsBanner{
+        display: none!important;
+    }
+    Footer{
+       flex-direction: column!important; 
+    }
+    main section .headerBanner{
+        flex-direction: column!important;
+    }
+    main section .headerBanner .boxAvaliacoes{
+        flex-direction: column!important;
+    }
+}

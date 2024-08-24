@@ -1,33 +1,30 @@
-footer {
-    width: 100%;
-    margin-top: 40px;
-}
-
-.container {
+footer{
     display: flex;
     justify-content: space-between;
+    width: 100%;
     align-items: center;
-    align-self: stretch;
+    margin-top: 40px;
 }
-
-footer .links {
+.navigationFooter{
     display: flex;
-    gap: 32px;
+    gap: 25px;
 }
-
-footer .footer-links {
+.navigationFooter .column{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 6px;
+}
+.navigationFooter .column a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    line-height: 1.5rem;
 }
 
-footer .footer-links a {
+.column h3{
     color: #7E8087;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration: none;
+    font-size: 13px;
+    font-family: "Krona One", sans-serif;
+    margin: 0;
     
 }
